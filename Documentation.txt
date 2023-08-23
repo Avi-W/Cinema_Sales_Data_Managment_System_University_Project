@@ -1,0 +1,12 @@
+Documentation:
+
+File Structure:
+	CurrentMovies.csv
+		Primary key: Name
+		Forign key:
+		Other columns: TicketPrice
+
+	CinemaSales.csv
+		Primary key: SaleID
+		Forign key: Movie (same as CurrentMovies "Name")
+		Other columns: Date, NumTicket, TicketPrice, TotalProfit
